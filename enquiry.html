@@ -89,7 +89,7 @@
               required="">
           </div>
           <textarea class="form-control" name="msg" placeholder="Query" rows="3"></textarea><br>
-          <button type="button" class="btn btn-danger">Submit</button>
+          <button type="button" class="btn btn-danger" onclick="displayMessage()" >Submit</button>
         </form>
       </div>
 
@@ -97,7 +97,12 @@
     </div>
   </div>
 
-
+  <script>
+		function displayMessage() {
+			alert("Form submitted successfully!");
+			document.getElementById("myForm").reset();
+		}
+	</script>
 
 
 

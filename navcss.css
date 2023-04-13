@@ -1,0 +1,22 @@
+.nav-item-active {
+    background-color: rgb(48, 47, 47);
+    color: #f1ebeb;
+    font-size: large;
+    text-align: center;
+    
+}
+.nav-item {
+    text-align: center;
+    color: white;
+}
+.nav-link {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-item:hover {
+    background-color: rgb(48, 47, 47);
+    color: #f1ebeb;
+    font-size: large;
+    
+    transition: width 5s;
+}
